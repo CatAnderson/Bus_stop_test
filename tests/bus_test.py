@@ -17,11 +17,11 @@ class TestBus(unittest.TestCase):
         self.assertEqual("Ocean Terminal", self.bus.destination)
 
 
-    @unittest.skip("Delete this line to run the test")
+    
     def test_can_drive(self):
         self.assertEqual("Brum brum", self.bus.drive())
 
-    @unittest.skip("Delete this line to run the test")
+    
     def test_starts_with_no_passengers(self):
         self.assertEqual(0, self.bus.passenger_count())
 
